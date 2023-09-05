@@ -5,7 +5,7 @@ param sqlDatabaseName string
 param sqlAdminLogin string
 param sqlAdminLoginPassword string
 
-resource cappsEnv 'Microsoft.App/managedEnvironments@2022-01-01-preview' existing = {
+resource cappsEnv 'Microsoft.App/managedEnvironments@2022-03-01' existing = {
   name: containerAppsEnvName
 }
 
